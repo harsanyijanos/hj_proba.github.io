@@ -11,6 +11,6 @@ git push -u origin main
 git remote add origin https://github.com/harsanyijanos/hj_proba.github.io.git
 git branch -M main
 git push -u origin main
-# szinkronizálás
+# szinkronizálás (letöltés a felhőből)
 git checkout main
-git pull --rebase origin
+git pull --rebase origin main
